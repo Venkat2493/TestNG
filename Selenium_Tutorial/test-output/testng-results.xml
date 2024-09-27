@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-27T13:29:20 IST" name="demo" finished-at="2024-09-27T13:29:51 IST" duration-ms="30766">
+    <groups>
+    </groups>
+    <test started-at="2024-09-27T13:29:20 IST" name="Test" finished-at="2024-09-27T13:29:51 IST" duration-ms="30766">
+      <class name="com.myfdbhub.FirstTest">
+        <test-method signature="launchGoogle()[pri:0, instance:com.myfdbhub.FirstTest@7526515b]" started-at="2024-09-27T13:29:21 IST" name="launchGoogle" finished-at="2024-09-27T13:29:35 IST" duration-ms="13970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+      </class> <!-- com.myfdbhub.FirstTest -->
+      <class name="com.orangehrm.login_Page">
+        <test-method signature="launchBroser()[pri:0, instance:com.orangehrm.login_Page@4b741d6d]" started-at="2024-09-27T13:29:35 IST" name="launchBroser" finished-at="2024-09-27T13:29:44 IST" duration-ms="9664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBroser -->
+        <test-method signature="login()[pri:0, instance:com.orangehrm.login_Page@4b741d6d]" started-at="2024-09-27T13:29:44 IST" name="login" finished-at="2024-09-27T13:29:47 IST" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="navigateToMyinfo()[pri:0, instance:com.orangehrm.login_Page@4b741d6d]" started-at="2024-09-27T13:29:47 IST" name="navigateToMyinfo" finished-at="2024-09-27T13:29:51 IST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMyinfo -->
+      </class> <!-- com.orangehrm.login_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- demo -->
+</testng-results>

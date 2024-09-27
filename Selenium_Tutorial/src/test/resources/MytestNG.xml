@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="demo">
+	<test name="Test">
+		<classes>
+			<class name="com.myfdbhub.FirstTest">
+				<methods>
+					<include name="launchGoogle" />
+				</methods>
+			</class>
+			<class name="com.orangehrm.login_Page">
+				<methods>
+					<include name="launchBroser" />
+				</methods>
+			</class>
+			<class name="com.orangehrm.login_Page">
+				<methods>
+					<include name="login" />
+					<include name="navigateToMyinfo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
